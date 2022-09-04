@@ -1,0 +1,151 @@
+﻿<Window x:Class="MloConverter.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="MloConverter" Height="500" Width="800">
+    
+    <Window.Resources>
+        <Brush x:Key="Background">#37323E</Brush>
+        <Brush x:Key="Text">#FFFFFF</Brush>
+        <Brush x:Key="Light">#6D6A75</Brush>
+        <Brush x:Key="Gray">#524E5A</Brush>
+        <Brush x:Key="Dark">#514C50</Brush>
+        
+        <Style TargetType="{x:Type Label}">
+            <Setter Property="Foreground" Value="{StaticResource Text}" />
+        </Style>
+        
+        <Style TargetType="{x:Type Label}" x:Key="HeaderText" BasedOn="{StaticResource {x:Type Label}}">
+            <Setter Property="FontSize" Value="15" />
+            <Setter Property="VerticalAlignment" Value="Center" />
+            <Setter Property="HorizontalAlignment" Value="Center" />
+            <Setter Property="FontWeight" Value="Bold" />
+        </Style>
+        
+        <Style TargetType="{x:Type CheckBox}">
+            <Setter Property="Foreground" Value="{StaticResource Text}" />
+            <Setter Property="FontSize" Value="11" />
+            <Setter Property="VerticalAlignment" Value="Center" />
+            <Setter Property="HorizontalAlignment" Value="Center" />
+            <Setter Property="FontWeight" Value="Bold" />
+        </Style>
+        
+        <Style TargetType="{x:Type Button}">
+            <Setter Property="Background" Value="{StaticResource Light}" />
+            <Setter Property="BorderBrush" Value="{StaticResource Light}"></Setter>
+            <Setter Property="Foreground" Value="{StaticResource Text}" />
+            <Setter Property="FontSize" Value="15" />
+            
+            <Setter Property="Margin" Value="10 5"></Setter>
+            
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Border x:Name="Border" Background="{TemplateBinding Background}">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" Value="{StaticResource Gray}" TargetName="Border" />
+                            </Trigger>
+                            <Trigger Property="IsPressed" Value="True">
+                                <Setter Property="Background" Value="{StaticResource Dark}" TargetName="Border"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        
+        <Style TargetType="{x:Type Button}" x:Key="ActionButtons" BasedOn="{StaticResource {x:Type Button}}">
+            <Setter Property="Margin" Value="50 5 50 5"></Setter>
+        </Style>
+        
+        <Style TargetType="{x:Type TextBox}">
+            <Setter Property="Margin" Value="5"></Setter>
+            <Setter Property="Background" Value="{StaticResource Light}"></Setter>
+            <Setter Property="BorderBrush" Value="{StaticResource Gray}"></Setter>
+            <Setter Property="Foreground" Value="{StaticResource Text}"></Setter>
+        </Style>
+        
+        <Style TargetType="{x:Type Label}" x:Key="OutPathStyle" BasedOn="{StaticResource {x:Type Label}}">
+            <Setter Property="VerticalAlignment" Value="Center"></Setter>
+        </Style>
+        
+        <Style TargetType="{x:Type TreeView}">
+            <Setter Property="Background" Value="{StaticResource Background}"></Setter>
+            <Setter Property="BorderBrush" Value="{StaticResource Gray}"></Setter>
+            <Setter Property="Margin" Value="5"></Setter>
+        </Style>
+        
+        <Style TargetType="{x:Type ListView}">
+            <Setter Property="Background" Value="{StaticResource Background}"></Setter>
+            <Setter Property="BorderBrush" Value="{StaticResource Gray}"></Setter>
+            <Setter Property="Margin" Value="5"></Setter>
+        </Style>
+        
+        <Style TargetType="{x:Type TreeViewItem}">
+            <Setter Property="Foreground" Value="{StaticResource Text}"></Setter>
+        </Style>
+        
+        <Style TargetType="{x:Type ListViewItem}">
+            <Setter Property="Foreground" Value="{StaticResource Text}"></Setter>
+        </Style>
+    </Window.Resources>
+    
+    <Grid Background="{StaticResource Background}">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        
+        <Grid Grid.Column="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="30" />
+                <RowDefinition />
+                <RowDefinition Height="25" />
+            </Grid.RowDefinitions>
+            
+            <Label Grid.Row="0" Content="RPF Explorer" Style="{StaticResource HeaderText}" />
+            <TreeView Grid.Row="1" AllowDrop="True" Drop="OnDrop" x:Name="FolderView"/>
+            <CheckBox Grid.Row="2" Content="Compress Files" x:Name="Compress" />
+        </Grid>
+        
+        <Grid Grid.Column="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="30" />
+                <RowDefinition />
+                <RowDefinition Height="50" />
+                <RowDefinition Height="30" />
+                <RowDefinition Height="40" />
+            </Grid.RowDefinitions>
+            
+            <Label Grid.Row="0" Content="Stream Files" Style="{StaticResource HeaderText}" />
+            <ListView Grid.Row="1" Name="StreamFiles" />
+            
+            <Grid Grid.Row="2">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                </Grid.ColumnDefinitions>
+                
+                <Button Grid.Column="0" Content="Build" Click="Build" Style="{StaticResource ActionButtons}"/>
+                <Button Grid.Column="1" Content="Clear" Click="Clear" Style="{StaticResource ActionButtons}"/>
+            </Grid>
+            
+            <TextBox Grid.Row="3" Text="Mlo name" Name="CarName" />
+            
+            <Grid Grid.Row="4">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition />
+                    <ColumnDefinition Width="150" />
+                </Grid.ColumnDefinitions>
+                
+                <Label Grid.Column="0" Content="Out dir" Name="OutPath" Style="{StaticResource OutPathStyle}"/>
+                <Button Grid.Column="1" Content="Set out dir" Click="ChooseOutDir" />
+            </Grid>
+        </Grid>
+    </Grid>
+</Window>

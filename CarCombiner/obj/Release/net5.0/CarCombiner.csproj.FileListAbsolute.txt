@@ -1,0 +1,16 @@
+D:\Programmierstuff\FiveM\CarCombiner\bin\Release\net5.0\CarCombiner.exe
+D:\Programmierstuff\FiveM\CarCombiner\bin\Release\net5.0\CarCombiner.deps.json
+D:\Programmierstuff\FiveM\CarCombiner\bin\Release\net5.0\CarCombiner.runtimeconfig.json
+D:\Programmierstuff\FiveM\CarCombiner\bin\Release\net5.0\CarCombiner.runtimeconfig.dev.json
+D:\Programmierstuff\FiveM\CarCombiner\bin\Release\net5.0\CarCombiner.dll
+D:\Programmierstuff\FiveM\CarCombiner\bin\Release\net5.0\CarCombiner.pdb
+D:\Programmierstuff\FiveM\CarCombiner\obj\Release\net5.0\CarCombiner.csproj.AssemblyReference.cache
+D:\Programmierstuff\FiveM\CarCombiner\obj\Release\net5.0\CarCombiner.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programmierstuff\FiveM\CarCombiner\obj\Release\net5.0\CarCombiner.AssemblyInfoInputs.cache
+D:\Programmierstuff\FiveM\CarCombiner\obj\Release\net5.0\CarCombiner.AssemblyInfo.cs
+D:\Programmierstuff\FiveM\CarCombiner\obj\Release\net5.0\CarCombiner.csproj.CoreCompileInputs.cache
+D:\Programmierstuff\FiveM\CarCombiner\obj\Release\net5.0\CarCombiner.dll
+D:\Programmierstuff\FiveM\CarCombiner\obj\Release\net5.0\ref\CarCombiner.dll
+D:\Programmierstuff\FiveM\CarCombiner\obj\Release\net5.0\CarCombiner.pdb
+D:\Programmierstuff\FiveM\CarCombiner\obj\Release\net5.0\CarCombiner.genruntimeconfig.cache
+D:\Programmierstuff\FiveM\CarCombiner\obj\Release\net5.0\refint\CarCombiner.dll

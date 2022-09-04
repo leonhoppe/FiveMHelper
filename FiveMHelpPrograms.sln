@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarCombiner", "CarCombiner\CarCombiner.csproj", "{C9AD6227-E12C-492F-B499-A0342B87DF6B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarConverter", "CarConverter\CarConverter.csproj", "{731B2018-840C-43BF-AC9F-E18B73EB901D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MloConverter", "MloConverter\MloConverter.csproj", "{20F838BC-A102-4679-B241-16BB2FA84D86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MloFinderUI", "MloFinderUI\MloFinderUI.csproj", "{27BAA414-43F2-4A46-91A8-0A8D2E7FC7FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MloFinder", "MloFinder\MloFinder.csproj", "{B3764965-2F1B-4F16-AF98-42D66BB628C0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C9AD6227-E12C-492F-B499-A0342B87DF6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9AD6227-E12C-492F-B499-A0342B87DF6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9AD6227-E12C-492F-B499-A0342B87DF6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9AD6227-E12C-492F-B499-A0342B87DF6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{731B2018-840C-43BF-AC9F-E18B73EB901D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{731B2018-840C-43BF-AC9F-E18B73EB901D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{731B2018-840C-43BF-AC9F-E18B73EB901D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{731B2018-840C-43BF-AC9F-E18B73EB901D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20F838BC-A102-4679-B241-16BB2FA84D86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20F838BC-A102-4679-B241-16BB2FA84D86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20F838BC-A102-4679-B241-16BB2FA84D86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20F838BC-A102-4679-B241-16BB2FA84D86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27BAA414-43F2-4A46-91A8-0A8D2E7FC7FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27BAA414-43F2-4A46-91A8-0A8D2E7FC7FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27BAA414-43F2-4A46-91A8-0A8D2E7FC7FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27BAA414-43F2-4A46-91A8-0A8D2E7FC7FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3764965-2F1B-4F16-AF98-42D66BB628C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3764965-2F1B-4F16-AF98-42D66BB628C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3764965-2F1B-4F16-AF98-42D66BB628C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3764965-2F1B-4F16-AF98-42D66BB628C0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

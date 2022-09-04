@@ -1,0 +1,15 @@
+D:\Programmierstuff\FiveM\CarConverter\bin\Debug\CarConverter.exe.config
+D:\Programmierstuff\FiveM\CarConverter\bin\Debug\CarConverter.exe
+D:\Programmierstuff\FiveM\CarConverter\bin\Debug\CarConverter.pdb
+D:\Programmierstuff\FiveM\CarConverter\obj\Debug\CarConverter.csproj.AssemblyReference.cache
+D:\Programmierstuff\FiveM\CarConverter\obj\Debug\CarConverter.csproj.SuggestedBindingRedirects.cache
+D:\Programmierstuff\FiveM\CarConverter\obj\Debug\MainWindow.g.cs
+D:\Programmierstuff\FiveM\CarConverter\obj\Debug\App.g.cs
+D:\Programmierstuff\FiveM\CarConverter\obj\Debug\CarConverter_MarkupCompile.cache
+D:\Programmierstuff\FiveM\CarConverter\obj\Debug\MainWindow.baml
+D:\Programmierstuff\FiveM\CarConverter\obj\Debug\CarConverter.g.resources
+D:\Programmierstuff\FiveM\CarConverter\obj\Debug\CarConverter.Properties.Resources.resources
+D:\Programmierstuff\FiveM\CarConverter\obj\Debug\CarConverter.csproj.GenerateResource.cache
+D:\Programmierstuff\FiveM\CarConverter\obj\Debug\CarConverter.csproj.CoreCompileInputs.cache
+D:\Programmierstuff\FiveM\CarConverter\obj\Debug\CarConverter.exe
+D:\Programmierstuff\FiveM\CarConverter\obj\Debug\CarConverter.pdb

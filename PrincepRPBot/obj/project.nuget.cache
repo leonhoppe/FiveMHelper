@@ -1,0 +1,32 @@
+{
+  "version": 2,
+  "dgSpecHash": "H2pQmHUoPWoDNoVvQdMZt/McxSIV4qq3IXpWWYtOf8ck3Asg/zHHgTs+Vlrr8UwGakcAkOmRfIaWuDquSYKN3g==",
+  "success": true,
+  "projectFilePath": "D:\\Programmierstuff\\FiveM\\PrincepRPBot\\PrincepRPBot.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\leon\\.nuget\\packages\\discord.net\\3.5.0\\discord.net.3.5.0.nupkg.sha512",
+    "C:\\Users\\leon\\.nuget\\packages\\discord.net.commands\\3.5.0\\discord.net.commands.3.5.0.nupkg.sha512",
+    "C:\\Users\\leon\\.nuget\\packages\\discord.net.core\\3.5.0\\discord.net.core.3.5.0.nupkg.sha512",
+    "C:\\Users\\leon\\.nuget\\packages\\discord.net.interactions\\3.5.0\\discord.net.interactions.3.5.0.nupkg.sha512",
+    "C:\\Users\\leon\\.nuget\\packages\\discord.net.rest\\3.5.0\\discord.net.rest.3.5.0.nupkg.sha512",
+    "C:\\Users\\leon\\.nuget\\packages\\discord.net.webhook\\3.5.0\\discord.net.webhook.3.5.0.nupkg.sha512",
+    "C:\\Users\\leon\\.nuget\\packages\\discord.net.websocket\\3.5.0\\discord.net.websocket.3.5.0.nupkg.sha512",
+    "C:\\Users\\leon\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.0\\microsoft.extensions.dependencyinjection.6.0.0.nupkg.sha512",
+    "C:\\Users\\leon\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\leon\\.nuget\\packages\\microsoft.extensions.logging\\6.0.0\\microsoft.extensions.logging.6.0.0.nupkg.sha512",
+    "C:\\Users\\leon\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0\\microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\leon\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "C:\\Users\\leon\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\leon\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\leon\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
+    "C:\\Users\\leon\\.nuget\\packages\\system.collections.immutable\\5.0.0\\system.collections.immutable.5.0.0.nupkg.sha512",
+    "C:\\Users\\leon\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
+    "C:\\Users\\leon\\.nuget\\packages\\system.interactive.async\\5.0.0\\system.interactive.async.5.0.0.nupkg.sha512",
+    "C:\\Users\\leon\\.nuget\\packages\\system.linq.async\\5.0.0\\system.linq.async.5.0.0.nupkg.sha512",
+    "C:\\Users\\leon\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
+    "C:\\Users\\leon\\.nuget\\packages\\system.reactive\\5.0.0\\system.reactive.5.0.0.nupkg.sha512",
+    "C:\\Users\\leon\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\leon\\.nuget\\packages\\system.valuetuple\\4.5.0\\system.valuetuple.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
