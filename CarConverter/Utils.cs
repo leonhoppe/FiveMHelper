@@ -4,7 +4,6 @@ using CodeWalker.GameFiles;
 
 namespace CarConverter {
     public static class Utils {
-
         public const string ManifestContent = @"
 fx_version 'cerulean'
 game 'gta5'
@@ -30,41 +29,55 @@ data_file 'VEHICLE_VARIATION_FILE' 'carvariations.meta'
             File.Copy(dlcFile, tempFolder + Path.DirectorySeparatorChar + "dlc.rpf");
 
             var manager = new RpfManager();
-            manager.Init(Path.GetDirectoryName(tempFolder), status => Console.WriteLine("STATUS: " + status), error => Console.Error.WriteLine("ERROR: " + error));
-
+            manager.Init(tempFolder, Console.WriteLine, Console.Error.WriteLine);
             foreach (var rpf in manager.AllRpfs) {
                 foreach (var entry in rpf.AllEntries) {
-                    if (entry.Path.EndsWith(".rpf")) continue;
                     try {
                         var fentry = entry as RpfFileEntry;
                         if (fentry == null) continue;
 
                         byte[] data = entry.File.ExtractFile(fentry);
 
-                        if (compress && !entry.Path.Contains("_manifest.ymf"))
-                            data = ResourceBuilder.Compress(data);
-
                         var rrfe = fentry as RpfResourceFileEntry;
-                        if (rrfe != null)
+                        if (rrfe != null) {
+                            if (compress && !entry.Name.EndsWith(".ytd")) {
+                                data = ResourceBuilder.Compress(data);
+                            }
+                            
                             data = ResourceBuilder.AddResourceHeader(rrfe, data);
+                        }
 
                         if (data != null) {
-                            string outPath = targetFolder + entry.Path.Replace("origdlc" + Path.DirectorySeparatorChar + "dlc.rpf", "").Remove(0, 1);
-                            string folder = Path.GetDirectoryName(outPath);
+                            var info = new FileInfo(entry.Name);
+                            string bpath = targetFolder + "\\" + entry.Path.Substring(0, entry.Path.Length - info.Extension.Length);
+                            string fpath = bpath + info.Extension;
+                            int c = 1;
+                            while (File.Exists(fpath)) {
+                                fpath = bpath + "_" + c + info.Extension;
+                                c++;
+                            }
 
-                            if (!Directory.Exists(folder))
-                                Directory.CreateDirectory(folder);
+                            string rfolder = Path.GetDirectoryName(fpath);
+                            if (fpath.EndsWith(".rpf")) {
+                                Directory.CreateDirectory(fpath);
+                                continue;
+                            }
                             
-                            File.WriteAllBytes(outPath, data);
+                            if (!Directory.Exists(rfolder))
+                                Directory.CreateDirectory(rfolder);
+                            File.WriteAllBytes(fpath, data);
+                        }
+                        else {
+                            throw new NullReferenceException("File data is null");
                         }
                     }
                     catch (Exception e) {
-                        string err = entry.Name + ": " + e.Message;
-                        manager.ErrorLog.Invoke(err);
+                        Console.WriteLine(e);
+                        throw;
                     }
                 }
             }
-            
+
             Directory.Delete(tempFolder, true);
         }
     }
