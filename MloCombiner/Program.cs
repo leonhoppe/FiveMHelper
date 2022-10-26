@@ -28,6 +28,7 @@ namespace MloCombiner {
                 else oldCombiner = null;
 
                 BeginCombining(rootFolder, resourceName, oldCombiner);
+                Console.ReadKey();
                 return;
             }
 
