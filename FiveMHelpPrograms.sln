@@ -6,13 +6,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarConverter", "CarConverte
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MloConverter", "MloConverter\MloConverter.csproj", "{20F838BC-A102-4679-B241-16BB2FA84D86}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MloFinderUI", "MloFinderUI\MloFinderUI.csproj", "{27BAA414-43F2-4A46-91A8-0A8D2E7FC7FB}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MloFinder", "MloFinder\MloFinder.csproj", "{B3764965-2F1B-4F16-AF98-42D66BB628C0}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BitComparer", "BitComparer\BitComparer\BitComparer.csproj", "{345F97D7-5089-4FDB-862F-1B998E15ADA4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MloCombiner", "MloCombiner\MloCombiner.csproj", "{84CC694F-6D57-467B-94D3-F3BCB9951884}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MloFinder", "MloFinder\MloFinder.csproj", "{4C1751A2-9E7B-459E-A5AB-2A420330FE99}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -32,14 +30,6 @@ Global
 		{20F838BC-A102-4679-B241-16BB2FA84D86}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{20F838BC-A102-4679-B241-16BB2FA84D86}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{20F838BC-A102-4679-B241-16BB2FA84D86}.Release|Any CPU.Build.0 = Release|Any CPU
-		{27BAA414-43F2-4A46-91A8-0A8D2E7FC7FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{27BAA414-43F2-4A46-91A8-0A8D2E7FC7FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{27BAA414-43F2-4A46-91A8-0A8D2E7FC7FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{27BAA414-43F2-4A46-91A8-0A8D2E7FC7FB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B3764965-2F1B-4F16-AF98-42D66BB628C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B3764965-2F1B-4F16-AF98-42D66BB628C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B3764965-2F1B-4F16-AF98-42D66BB628C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B3764965-2F1B-4F16-AF98-42D66BB628C0}.Release|Any CPU.Build.0 = Release|Any CPU
 		{345F97D7-5089-4FDB-862F-1B998E15ADA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{345F97D7-5089-4FDB-862F-1B998E15ADA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{345F97D7-5089-4FDB-862F-1B998E15ADA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -48,5 +38,9 @@ Global
 		{84CC694F-6D57-467B-94D3-F3BCB9951884}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{84CC694F-6D57-467B-94D3-F3BCB9951884}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{84CC694F-6D57-467B-94D3-F3BCB9951884}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C1751A2-9E7B-459E-A5AB-2A420330FE99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C1751A2-9E7B-459E-A5AB-2A420330FE99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C1751A2-9E7B-459E-A5AB-2A420330FE99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C1751A2-9E7B-459E-A5AB-2A420330FE99}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

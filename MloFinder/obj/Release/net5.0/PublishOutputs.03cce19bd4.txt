@@ -1,0 +1,9 @@
+D:\Programmierstuff\FiveM\MloFinder\bin\Release\net5.0\publish\MloFinder.exe
+D:\Programmierstuff\FiveM\MloFinder\bin\Release\net5.0\publish\MloFinder.dll
+D:\Programmierstuff\FiveM\MloFinder\bin\Release\net5.0\publish\MloFinder.deps.json
+D:\Programmierstuff\FiveM\MloFinder\bin\Release\net5.0\publish\MloFinder.runtimeconfig.json
+D:\Programmierstuff\FiveM\MloFinder\bin\Release\net5.0\publish\MloFinder.pdb
+D:\Programmierstuff\FiveM\MloFinder\bin\Release\net5.0\publish\SharpDX.dll
+D:\Programmierstuff\FiveM\MloFinder\bin\Release\net5.0\publish\SharpDX.Mathematics.dll
+D:\Programmierstuff\FiveM\MloFinder\bin\Release\net5.0\publish\CodeWalker.Core.dll
+D:\Programmierstuff\FiveM\MloFinder\bin\Release\net5.0\publish\CodeWalker.Core.pdb

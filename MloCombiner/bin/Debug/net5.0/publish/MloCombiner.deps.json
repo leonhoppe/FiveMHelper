@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "MloCombiner/1.0.0": {
+        "runtime": {
+          "MloCombiner.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MloCombiner/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -7,6 +7,7 @@
         <PackAsTool>true</PackAsTool>
         <ToolCommandName>mcb</ToolCommandName>
         <PackageOutputPath>./nupkg</PackageOutputPath>
+        <PackageLicenseUrl>https://choosealicense.com/licenses/mit/</PackageLicenseUrl>
     </PropertyGroup>
 
 </Project>

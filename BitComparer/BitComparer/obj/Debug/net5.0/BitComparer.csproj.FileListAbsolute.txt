@@ -3,7 +3,6 @@ D:\Programmierstuff\FiveM\BitComparer\BitComparer\bin\Debug\net5.0\BitComparer.d
 D:\Programmierstuff\FiveM\BitComparer\BitComparer\bin\Debug\net5.0\BitComparer.runtimeconfig.json
 D:\Programmierstuff\FiveM\BitComparer\BitComparer\bin\Debug\net5.0\BitComparer.runtimeconfig.dev.json
 D:\Programmierstuff\FiveM\BitComparer\BitComparer\bin\Debug\net5.0\BitComparer.dll
-D:\Programmierstuff\FiveM\BitComparer\BitComparer\bin\Debug\net5.0\ref\BitComparer.dll
 D:\Programmierstuff\FiveM\BitComparer\BitComparer\bin\Debug\net5.0\BitComparer.pdb
 D:\Programmierstuff\FiveM\BitComparer\BitComparer\obj\Debug\net5.0\BitComparer.csproj.AssemblyReference.cache
 D:\Programmierstuff\FiveM\BitComparer\BitComparer\obj\Debug\net5.0\BitComparer.GeneratedMSBuildEditorConfig.editorconfig
@@ -14,3 +13,4 @@ D:\Programmierstuff\FiveM\BitComparer\BitComparer\obj\Debug\net5.0\BitComparer.d
 D:\Programmierstuff\FiveM\BitComparer\BitComparer\obj\Debug\net5.0\ref\BitComparer.dll
 D:\Programmierstuff\FiveM\BitComparer\BitComparer\obj\Debug\net5.0\BitComparer.pdb
 D:\Programmierstuff\FiveM\BitComparer\BitComparer\obj\Debug\net5.0\BitComparer.genruntimeconfig.cache
+D:\Programmierstuff\FiveM\BitComparer\BitComparer\obj\Debug\net5.0\refint\BitComparer.dll

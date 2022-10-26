@@ -1,0 +1,16 @@
+D:\Programmierstuff\FiveM\MloCombiner\bin\Debug\net5.0\MloCombiner.exe
+D:\Programmierstuff\FiveM\MloCombiner\bin\Debug\net5.0\MloCombiner.deps.json
+D:\Programmierstuff\FiveM\MloCombiner\bin\Debug\net5.0\MloCombiner.runtimeconfig.json
+D:\Programmierstuff\FiveM\MloCombiner\bin\Debug\net5.0\MloCombiner.runtimeconfig.dev.json
+D:\Programmierstuff\FiveM\MloCombiner\bin\Debug\net5.0\MloCombiner.dll
+D:\Programmierstuff\FiveM\MloCombiner\bin\Debug\net5.0\MloCombiner.pdb
+D:\Programmierstuff\FiveM\MloCombiner\obj\Debug\net5.0\MloCombiner.csproj.AssemblyReference.cache
+D:\Programmierstuff\FiveM\MloCombiner\obj\Debug\net5.0\MloCombiner.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programmierstuff\FiveM\MloCombiner\obj\Debug\net5.0\MloCombiner.AssemblyInfoInputs.cache
+D:\Programmierstuff\FiveM\MloCombiner\obj\Debug\net5.0\MloCombiner.AssemblyInfo.cs
+D:\Programmierstuff\FiveM\MloCombiner\obj\Debug\net5.0\MloCombiner.csproj.CoreCompileInputs.cache
+D:\Programmierstuff\FiveM\MloCombiner\obj\Debug\net5.0\MloCombiner.dll
+D:\Programmierstuff\FiveM\MloCombiner\obj\Debug\net5.0\refint\MloCombiner.dll
+D:\Programmierstuff\FiveM\MloCombiner\obj\Debug\net5.0\MloCombiner.pdb
+D:\Programmierstuff\FiveM\MloCombiner\obj\Debug\net5.0\MloCombiner.genruntimeconfig.cache
+D:\Programmierstuff\FiveM\MloCombiner\obj\Debug\net5.0\ref\MloCombiner.dll

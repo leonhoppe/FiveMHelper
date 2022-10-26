@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>MloCombiner</id>
+    <version>1.0.0</version>
+    <authors>MloCombiner</authors>
+    <licenseUrl>https://choosealicense.com/licenses/mit/</licenseUrl>
+    <description>Package Description</description>
+    <packageTypes>
+      <packageType name="DotnetTool" />
+    </packageTypes>
+  </metadata>
+  <files>
+    <file src="D:\Programmierstuff\FiveM\MloCombiner\obj\DotnetToolSettings.xml" target="tools\net5.0\any\DotnetToolSettings.xml" />
+    <file src="D:\Programmierstuff\FiveM\MloCombiner\bin\Debug\net5.0\publish\MloCombiner.dll" target="tools\net5.0\any\MloCombiner.dll" />
+    <file src="D:\Programmierstuff\FiveM\MloCombiner\bin\Debug\net5.0\publish\MloCombiner.deps.json" target="tools\net5.0\any\MloCombiner.deps.json" />
+    <file src="D:\Programmierstuff\FiveM\MloCombiner\bin\Debug\net5.0\publish\MloCombiner.runtimeconfig.json" target="tools\net5.0\any\MloCombiner.runtimeconfig.json" />
+    <file src="D:\Programmierstuff\FiveM\MloCombiner\bin\Debug\net5.0\publish\MloCombiner.pdb" target="tools\net5.0\any\MloCombiner.pdb" />
+  </files>
+</package>
