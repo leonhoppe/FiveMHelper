@@ -12,6 +12,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MloFinder", "MloFinder\MloF
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BitComparer", "BitComparer\BitComparer\BitComparer.csproj", "{345F97D7-5089-4FDB-862F-1B998E15ADA4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MloCombiner", "MloCombiner\MloCombiner.csproj", "{84CC694F-6D57-467B-94D3-F3BCB9951884}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,5 +44,9 @@ Global
 		{345F97D7-5089-4FDB-862F-1B998E15ADA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{345F97D7-5089-4FDB-862F-1B998E15ADA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{345F97D7-5089-4FDB-862F-1B998E15ADA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84CC694F-6D57-467B-94D3-F3BCB9951884}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84CC694F-6D57-467B-94D3-F3BCB9951884}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84CC694F-6D57-467B-94D3-F3BCB9951884}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84CC694F-6D57-467B-94D3-F3BCB9951884}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

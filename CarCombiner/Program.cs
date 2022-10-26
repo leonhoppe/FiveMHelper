@@ -93,8 +93,8 @@ namespace CarCombiner {
             return info.CreateSubdirectory("stream").FullName;
         }
 
-        private static void CopyStreamData(string streamFolder, string resourcesFolder) {
-            DirectoryInfo resources = new DirectoryInfo(resourcesFolder);
+        private static void CopyStreamData(string streamFolder, string rootFolder) {
+            DirectoryInfo resources = new DirectoryInfo(rootFolder);
             foreach (DirectoryInfo resource in resources.EnumerateDirectories()) {
                 DirectoryInfo stream = new DirectoryInfo(resource.FullName + "/stream");
                 

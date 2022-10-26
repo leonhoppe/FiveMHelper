@@ -13,11 +13,6 @@ D:\Programmierstuff\FiveM\CarConverter\obj\Release\CarConverter.csproj.GenerateR
 D:\Programmierstuff\FiveM\CarConverter\obj\Release\CarConverter.csproj.CoreCompileInputs.cache
 D:\Programmierstuff\FiveM\CarConverter\obj\Release\CarConverter.exe
 D:\Programmierstuff\FiveM\CarConverter\obj\Release\CarConverter.pdb
-D:\Programmierstuff\FiveM\CarConverter\bin\Release\SharpDX.dll
-D:\Programmierstuff\FiveM\CarConverter\bin\Release\SharpDX.Mathematics.dll
-D:\Programmierstuff\FiveM\CarConverter\bin\Release\SharpDX.pdb
-D:\Programmierstuff\FiveM\CarConverter\bin\Release\SharpDX.Mathematics.pdb
-D:\Programmierstuff\FiveM\CarConverter\bin\Release\SharpDX.Mathematics.xml
 D:\Programmierstuff\FiveM\CarConverter\obj\Release\CarConverter.csproj.CopyComplete
 D:\Programmierstuff\FiveM\CarConverter\bin\Release\Microsoft.WindowsAPICodePack.Shell.dll
 D:\Programmierstuff\FiveM\CarConverter\bin\Release\Microsoft.WindowsAPICodePack.Shell.xml

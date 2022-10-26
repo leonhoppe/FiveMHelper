@@ -40,7 +40,7 @@ data_file 'VEHICLE_VARIATION_FILE' 'carvariations.meta'
 
                         var rrfe = fentry as RpfResourceFileEntry;
                         if (rrfe != null) {
-                            if (compress && !entry.Name.EndsWith(".ytd")) {
+                            if (compress) {
                                 data = ResourceBuilder.Compress(data);
                             }
                             

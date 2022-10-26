@@ -111,7 +111,7 @@
             
             <Label Grid.Row="0" Content="RPF Explorer" Style="{StaticResource HeaderText}" />
             <TreeView Grid.Row="1" AllowDrop="True" Drop="OnDrop" x:Name="FolderView"/>
-            <CheckBox Grid.Row="2" Content="Compress Files" x:Name="Compress" />
+            <CheckBox Grid.Row="2" Content="Compress Files" x:Name="Compress" IsChecked="True" />
         </Grid>
         
         <Grid Grid.Column="1">

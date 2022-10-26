@@ -41,18 +41,16 @@ namespace CarConverter {
             Clear(null, null);
             string dlcFile = ((string[])e.Data.GetData(DataFormats.FileDrop))[0];
             Utils.UnpackDlcFile(dlcFile, TempFolder, Compress.IsChecked.Value);
-            UpdateUi(TempFolder, "dlc.rpf");
+            UpdateUi(TempFolder);
         }
 
-        private void UpdateUi(string folder, string rootFolderName) {
+        private void UpdateUi(string folder) {
             var info = new DirectoryInfo(folder);
-            var root = new TreeViewItem { Header = rootFolderName, IsExpanded = true };
-            AddSubFiles(info, root);
-            FolderView.Items.Add(root);
+            AddSubFiles(info, FolderView);
             UpdateOutLists();
         }
 
-        private void AddSubFiles(DirectoryInfo info, TreeViewItem root) {
+        private void AddSubFiles(DirectoryInfo info, ItemsControl root) {
             foreach (var dir in info.EnumerateDirectories()) {
                 var item = new TreeViewItem { Header = dir.Name, DataContext = dir.FullName };
                 AddSubFiles(dir, item);

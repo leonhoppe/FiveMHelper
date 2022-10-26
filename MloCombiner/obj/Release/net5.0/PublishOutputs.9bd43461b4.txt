@@ -1,0 +1,5 @@
+D:\Programmierstuff\FiveM\MloCombiner\bin\Release\net5.0\publish\MloCombiner.exe
+D:\Programmierstuff\FiveM\MloCombiner\bin\Release\net5.0\publish\MloCombiner.dll
+D:\Programmierstuff\FiveM\MloCombiner\bin\Release\net5.0\publish\MloCombiner.deps.json
+D:\Programmierstuff\FiveM\MloCombiner\bin\Release\net5.0\publish\MloCombiner.runtimeconfig.json
+D:\Programmierstuff\FiveM\MloCombiner\bin\Release\net5.0\publish\MloCombiner.pdb
