@@ -37,15 +37,18 @@
         <Prefer32bit>false</Prefer32bit>
     </PropertyGroup>
     <ItemGroup>
-        <Reference Include="CodeWalker.Core">
-          <HintPath>..\..\C#\CodeWalker.Core\bin\Debug\netstandard2.0\CodeWalker.Core.dll</HintPath>
-        </Reference>
         <Reference Include="CustomMarshalers" />
         <Reference Include="Microsoft.WindowsAPICodePack, Version=1.1.4.0, Culture=neutral, PublicKeyToken=8985beaab7ea3f04, processorArchitecture=MSIL">
           <HintPath>packages\Microsoft-WindowsAPICodePack-Core.1.1.4\lib\net48\Microsoft.WindowsAPICodePack.dll</HintPath>
         </Reference>
         <Reference Include="Microsoft.WindowsAPICodePack.Shell, Version=1.1.4.0, Culture=neutral, PublicKeyToken=8985beaab7ea3f04, processorArchitecture=MSIL">
           <HintPath>packages\Microsoft-WindowsAPICodePack-Shell.1.1.4\lib\net48\Microsoft.WindowsAPICodePack.Shell.dll</HintPath>
+        </Reference>
+        <Reference Include="RageLib">
+          <HintPath>..\..\.Librarys\GTA Toolkit\RageLib.dll</HintPath>
+        </Reference>
+        <Reference Include="RageLib.GTA5">
+          <HintPath>..\..\.Librarys\GTA Toolkit\RageLib.GTA5.dll</HintPath>
         </Reference>
         <Reference Include="System" />
         <Reference Include="System.Core" />

@@ -86,6 +86,11 @@ namespace CarConverter {
                 item.KeyDown += ListInteraction;
                 StreamFiles.Items.Add(item);
             }
+
+            if (_streamFiles.Count != 0) {
+                var name = _streamFiles[0].Name.Replace(_streamFiles[0].Extension, "");
+                CarName.Text = name;
+            }
         }
 
         private void Clear(object sender, RoutedEventArgs e) {
